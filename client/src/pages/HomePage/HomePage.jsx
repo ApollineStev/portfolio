@@ -84,35 +84,35 @@ function HomePage() {
         <h1>Portfolio</h1>
 
         <MDBCarousel showControls showIndicators>
-      <MDBCarouselItem
-        className='w-50 d-block'
-        itemId={1}
-        src={require('./img/portfolio.png')}
-        alt='portfolio'
-      >
-        <h5>Mon portfolio</h5>
-        <p>Le site sur lequel vous êtes =)</p>
-      </MDBCarouselItem>
+            <MDBCarouselItem
+              className='w-50 d-block'
+              itemId={1}
+              src={require('./img/portfolio.png')}
+              alt='portfolio'
+            >
+              <h5>Mon portfolio</h5>
+              <p>Le site sur lequel vous êtes =)</p>
+            </MDBCarouselItem>
 
-      <MDBCarouselItem
-        className='w-50 d-block'
-        itemId={2}
-        src={require('./img/portal.png')}
-        alt='portal'
-      >
-        <h5>Portal</h5>
-        <a href="https://portal-project.netlify.app/posts" target="_blank" rel="noreferrer">Accéder au site</a>
-      </MDBCarouselItem>
+            <MDBCarouselItem
+              className='w-50 d-block'
+              itemId={2}
+              src={require('./img/portal.png')}
+              alt='portal'
+            >
+              <h5>Portal</h5>
+              <a href="https://portal-project.netlify.app/posts" target="_blank" rel="noreferrer">Accéder au site</a>
+            </MDBCarouselItem>
 
-      <MDBCarouselItem
-        className='w-50 d-block'
-        itemId={3}
-        src={require('./img/ironcookimg.png')}
-        alt='portal'
-      >
-        <h5>Ironcook</h5>
-        <a href="https://splendid-gray-nightingale.cyclic.app/" target="_blank" rel="noreferrer">Accéder au site</a>
-      </MDBCarouselItem>
+            <MDBCarouselItem
+              className='w-50 d-block'
+              itemId={3}
+              src={require('./img/ironcookimg.png')}
+              alt='portal'
+            >
+              <h5>Ironcook</h5>
+              <a href="https://splendid-gray-nightingale.cyclic.app/" target="_blank" rel="noreferrer">Accéder au site</a>
+            </MDBCarouselItem>
 
     </MDBCarousel>
 
