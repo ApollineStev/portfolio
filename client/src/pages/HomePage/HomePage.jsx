@@ -83,6 +83,7 @@ function HomePage() {
       <section id="portfolio">
         <h1>Portfolio</h1>
 
+
         <MDBCarousel showControls showIndicators
         className="d-flex">
             <MDBCarouselItem
