@@ -1,7 +1,7 @@
 // config/session.config.js
 
 // require session
-const session = require('express-session');
+/*const session = require('express-session');
 
 // ADDED: require mongostore
 const MongoStore = require('connect-mongo');
@@ -36,4 +36,4 @@ module.exports = app => {
       })
     })
   );
-};
+};*/
