@@ -86,7 +86,7 @@ function HomePage() {
         <MDBCarousel showControls showIndicators
         className="d-flex">
             <MDBCarouselItem
-              className='w-50 d-block'
+              className='w-50 '
               itemId={1}
               src={require('./img/portfolio.png')}
               alt='portfolio'
@@ -96,7 +96,7 @@ function HomePage() {
             </MDBCarouselItem>
 
             <MDBCarouselItem
-              className='w-50 d-block'
+              className='w-50 '
               itemId={2}
               src={require('./img/portal.png')}
               alt='portal'
@@ -106,7 +106,7 @@ function HomePage() {
             </MDBCarouselItem>
 
             <MDBCarouselItem
-              className='w-50 d-block'
+              className='w-50 '
               itemId={3}
               src={require('./img/ironcookimg.png')}
               alt='portal'
